@@ -22,6 +22,10 @@ body{
 	text-transform: uppercase;
 }
 
+.sidebar-header .img-circle{
+	max-width: 100%;
+}
+
 .sidebar-header .title a{
 	text-decoration: none;
 	color: #fff;
@@ -114,7 +118,7 @@ article {
 
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
-article img { max-width: 50%; }
+article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
 article.home h1,
