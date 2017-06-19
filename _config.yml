@@ -7,18 +7,18 @@ highlighter: rouge
 markdown: kramdown
 disqus: 
 google_analytics: 
-title: Mahendra
+title: Mahendra Shaji Kurian
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: Shaji
+      title: Data Science Projects
 
 description: Data Scientist
 author:
-  name: Kurian
+  name: Mahendra
   email: shajimahendra@gmail.com
   github: MahendraShaji
   twitter: 
@@ -28,7 +28,7 @@ author:
   email_md5: 
 
 rss_path: 
-categories_path: projects.html
+categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
