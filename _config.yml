@@ -28,7 +28,7 @@ author:
   email_md5: 
 
 rss_path: 
-categories_path: categories.html
+categories_path: index.html
 tags_path: tags.html
 
 # set it as url of an image
