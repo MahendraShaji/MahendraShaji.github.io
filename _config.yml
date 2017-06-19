@@ -27,7 +27,7 @@ author:
   bio: Data Scientist
   email_md5: 
 
-rss_path: feed.xml
+rss_path: 
 categories_path: categories.html
 tags_path: tags.html
 
