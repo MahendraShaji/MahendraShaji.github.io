@@ -5,16 +5,16 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: 
+google_analytics: 
+title: Mahendra Shaji Kurian
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Mahendra Shaji Kurian
 
 description: Data Scientist
 author:
@@ -24,7 +24,7 @@ author:
   twitter: 
   pinterest: 
   linkedin: shaji-mahendra
-  bio: Your stylish, minimalist theme!
+  bio: Data Scientist
   email_md5: 
 
 rss_path: feed.xml
