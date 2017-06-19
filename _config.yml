@@ -16,16 +16,16 @@ defaults:
     values:
       title: dbyll
 
-description: Stylish Jekyll Theme
+description: Data Scientist
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
+  name: Mahendra Shaji Kurian
+  email: shajimahendra@gmail.com
+  github: MahendraShaji
+  twitter: 
+  pinterest: 
+  linkedin: shaji-mahendra
   bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  email_md5: 
 
 rss_path: feed.xml
 categories_path: categories.html
