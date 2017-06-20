@@ -31,10 +31,10 @@ Part2:
 
 I have implemented 2 models to predict whether the job is in relation to Data Scientist/Analsyt from JD. I have used a pipeline to implement those models and used count vectorization as one main way for predictions. I have implemented Naive Bayes method and Logistic regression to preict the title. Have done a proper stop word implementation to get a better prediction and it worked well in this case.
 
-<img src="./mahendrashaji.github.io/assets/media/industry.png">
+<img src="https://mahendrashaji.github.io/assets/media/industry.png">
 The above figure shows the mean salary towards each industry
 
-<img src="./mahendrashaji.github.io/assets/media/wordcount.png">
+<img src="https://mahendrashaji.github.io/assets/media/wordcount.png">
 Above Figure shows the top 10 keywords and its counts in the Job Description provided.
 
 ### Inference
