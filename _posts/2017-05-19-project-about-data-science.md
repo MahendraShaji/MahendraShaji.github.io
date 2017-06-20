@@ -2,7 +2,7 @@
 layout: post
 title: Project - Data Science in Australia
 categories: [project]
-tags: [web scraping, classification]
+tags: [web scraping, NLP, classification]
 fullview: false
 ---
 
@@ -51,5 +51,5 @@ Part1: Here I have implemented mainly 2 models to make it a classification probl
 Part2: I again checked through 2 models and the prediction through the job description worked well.
 
 
-<a class="btn btn-default" href="https://github.com/MahendraShaji/Capstone">click here to check the project on GitHub</a>
+<a class="btn btn-default" href="https://github.com/MahendraShaji/Project/tree/master/Data_Science_NLP">click here to check the project on GitHub</a>
 
