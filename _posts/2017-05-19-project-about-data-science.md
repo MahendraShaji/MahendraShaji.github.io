@@ -13,10 +13,10 @@ In this project I have tried mainly answer 2 questions.
 To predict the Salary from the details we have like title, location, classification/industry and the skills or words from the Job Description.
 #### Part2
 
-To predict whether job title is Data Scientist/Analyst or others from the the skills and key words in Job Description.
+To predict whether job title is Data Scientist/Analyst or others from the skills and key words in Job Description.
 
 ### Approach:
-Here I have scrapped more than 1000 datapoints and details from Seek.com with the keywords Data scientist, Data analyst, Business intelligence, Business analyst from 3 different cities which are Melbourne, Sydney and Brisbane.
+Here I have scrapped more than 1000 data points and details from Seek.com with the keywords Data scientist, Data analyst, Business intelligence, Business analyst from 3 different cities which are Melbourne, Sydney and Brisbane.
 
 After scrapping the data I have cleaned it according to industry standards and since a lot of records did not had salary data I have selected only records with salary data for the first part so that I can make a better model. While I have used the entire dataset for part 2 since salary was not involved in it anyways.
 
@@ -25,17 +25,17 @@ After scrapping the data I have cleaned it according to industry standards and s
 I have scrapped the data and made a CSV file from it for further use in the project.
 
 Part1: 
-I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell wether its a high paying salary or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With Ridge feature selection used Logistic Regression. Then I tried another model Decision Tree as classifier so that I can confirm or upgrade my model.From these 2 models found the key skills/ Buzz words and the features that affect mostly to the salary.
+I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell whether it’s a high paying salary or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With Ridge feature selection used Logistic Regression. Then I tried another model Decision Tree as classifier so that I can confirm or upgrade my model. From these 2 models found the key skills/ Buzz words and the features that affect mostly to the salary.
 
-Part2:
+Part2: 
 
-I have implemented 2 models to predict whether the job is in relation to Data Scientist/Analsyt from JD. I have used a pipeline to implement those models and used count vectorization as one main way for predictions. I have implemented Naive Bayes method and Logistic regression to preict the title. Have done a proper stop word implementation to get a better prediction and it worked well in this case.
+I have implemented 2 models to predict whether the job is in relation to Data Scientist/Analyst from JD. I have used a pipeline to implement those models and used count vectorization as one main way for predictions. I have implemented Naive Bayes method and Logistic regression to predict the title. Have done a proper stop word implementation to get a better prediction and it worked well in this case.
 
 <img src="https://mahendrashaji.github.io/assets/media/industry.png">
-The above figure shows the mean salary towards each industry
+Above figure shows the mean salary towards each industry
 
 <img src="https://mahendrashaji.github.io/assets/media/wordcount.png">
-Above Figure shows the top 10 keywords and its counts in the Job Description provided.
+Above figure shows the top 10 keywords and its counts in the Job Description provided.
 
 ### Inference
 Part1: 
@@ -52,4 +52,5 @@ Part2: I again checked through 2 models and the prediction through the job descr
 
 
 <a class="btn btn-default" href="https://github.com/MahendraShaji/Project/tree/master/Data_Science_NLP">click here to check the project on GitHub</a>
+
 
