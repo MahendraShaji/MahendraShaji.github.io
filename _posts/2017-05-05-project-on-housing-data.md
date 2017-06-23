@@ -2,10 +2,11 @@
 layout: post
 title: Project - Which is the ideal house for you?
 categories: [project]
-tags: [predictive model, classification]
+tags: [prediction, classification]
+comments: false
 fullview: false
 ---
-
+ 
 Here in this project I am trying to find out the best features that can predict the price of a house. Here I have divided the project into different parts.
 1. To find out the fixed properties that affects the housing price
 2. To find how the variable properties can improve the housing price prediction
@@ -29,6 +30,3 @@ Another interesting but obvious finding was the mean sale price of the house inc
 
 
 <a class="btn btn-default" href="https://github.com/MahendraShaji/Project/tree/master/Housing_Data">click here to check the project on GitHub</a>
-
-
-
