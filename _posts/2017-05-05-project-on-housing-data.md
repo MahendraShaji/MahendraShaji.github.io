@@ -3,7 +3,7 @@ layout: post
 title: Project - Which is the ideal house for you?
 categories: [project]
 tags: [predictive model, classification]
-fullview: true
+fullview: false
 ---
 
 Here in this project I am trying to find out the best features that can predict the price of a house. Here I have divided the project into different parts.
