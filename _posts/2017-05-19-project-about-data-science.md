@@ -25,7 +25,7 @@ After scrapping the data I have cleaned it according to industry standards and s
 I have scrapped the data and made a CSV file from it for further use in the project.
 
 Part1: 
-I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell whether it’s a high paying salary or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With Ridge feature selection used Logistic Regression. Then I tried another model Decision Tree as classifier so that I can confirm or upgrade my model. From these 2 models found the key skills/ Buzz words and the features that affect mostly to the salary.
+I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell whether itÂ’s a high paying salary or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With Ridge feature selection used Logistic Regression. Then I tried another model Decision Tree as classifier so that I can confirm or upgrade my model. From these 2 models found the key skills/ Buzz words and the features that affect mostly to the salary.
 
 Part2: 
 
@@ -52,5 +52,3 @@ Part2: I again checked through 2 models and the prediction through the job descr
 
 
 <a class="btn btn-default" href="https://github.com/MahendraShaji/Project/tree/master/Data_Science_NLP">click here to check the project on GitHub</a>
-
-

@@ -23,8 +23,7 @@ After finalizing the fixed and variable properties I created dummies variables w
 
 From the first part the 5 best fixed properties that affect the house price are "Total square feet of the plot", "Living Area in square feet", "Neighbourhood", "Age of the house" & "Number of Garage for car park". With the fixed features I was able to predict the house price with 76% accuracy. In the classification model "Sale Type", "Exterior Material", "Basement Quality", "Garage Type" & "MS Zoning" are the 5 best features that shows the abnormal sales. 
 Another interesting but obvious finding was the mean sale price of the house increases as the overall quality increases
-
-<img src=".https://mahendrashaji.github.io/assets/media/Sale_vs_Qual.png">
+<img src="https://mahendrashaji.github.io/assets/media/Sale_vs_Qual.png">
 
 
 
