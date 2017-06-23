@@ -3,7 +3,7 @@ layout: post
 title: Project - Data Science in Australia
 categories: [project]
 tags: [web scraping, NLP, classification]
-fullview: false
+fullview: true
 ---
 
 ### Introduction
