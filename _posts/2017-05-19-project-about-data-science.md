@@ -9,9 +9,9 @@ fullview: false
 ### Introduction
 In this project I have tried mainly answer 2 questions.
 
-#### Part1.
+1. Part1.
 To predict the Salary from the details we have like title, location, classification/industry and the skills or words from the Job Description.
-#### Part2
+2. Part2
 
 To predict whether job title is Data Scientist/Analyst or others from the skills and key words in Job Description.
 
