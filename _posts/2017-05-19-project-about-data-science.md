@@ -24,11 +24,11 @@ After scrapping the data I have cleaned it according to industry standards and s
 I have scrapped the data and made a CSV file from it for further use in the project.
 
 Part1: 
-I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell whether its a high paying salary or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With Ridge feature selection used Logistic Regression. Then I tried another model Decision Tree as classifier so that I can confirm or upgrade my model. From these 2 models found the key skills/ Buzz words and the features that affect mostly to the salary.
+I have selected the salary prediction as a classification problem and from the known data, created a new feature to tell me whether it is a high paying job or low paying and set the limit as 115,000 after analysing the existing data. I have used Logistic Regression, then with a grid search selected "l2" penalty or Ridge as a feature selection. With ridge feature selection, I used Logistic regression. Then I tried another another model decision tree as classifier so that I could confirm or upgrade my model. From these two models, I found the key skills/buzz words and features that mostly affected the salary.
 
 Part2: 
 
-I have implemented 2 models to predict whether the job is in relation to Data Scientist/Analyst from JD. I have used a pipeline to implement those models and used count vectorization as one main way for predictions. I have implemented Naive Bayes method and Logistic regression to predict the title. Have done a proper stop word implementation to get a better prediction and it worked well in this case.
+I have implemented 2 models to predict whether the job is in relation to Data Scientist/Analyst from JD. I have used a pipeline to implement those models and used count vectorization as one of the main tools for predictions. I have implemented Naive Bayes method and Logistic regression to predict the title. I have done a proper stop word implementation to get a better prediction and it worked well in this case.
 
 <img src="https://mahendrashaji.github.io/assets/media/industry.png">
 Above figure shows the mean salary towards each industry
@@ -38,15 +38,15 @@ Above figure shows the top 10 keywords and its counts in the Job Description pro
 
 ### Inference
 Part1: 
-From the 2 models I have implemented and tested some of the main features that are directly affecting the salary are classification/ industry of job, which are Information & Communication Technology, Consulting & Strategy, Education & Training, Marketing & Communications. It also shows location have an impact. 
+From the 2 models I have implemented and tested some of the main features that directly affect salary are classification/ industry of job, which include Information & Communication Technology, Consulting & Strategy, Education & Training, Marketing & Communications. It also shows that location has an impact.
 If we look through the key words or group of words that have impact on Salary some of them are "business intelligence", "big data", "business development", "advanced analytics", "data analysis", "data driven",  "high performing".
 
 Part2: 
-Here I have tried to predict whether a job title is Data scientist/Analyst from the job description. Implemented 2 models Naive Bayes Classifier and Logistic Regression. Tried implementing the model with 20% test data and with full dataset as well. For both models both ROC and classification report seems to be great. Both the models seems to be good which can also be used for predicting the title with the JD's for further scrapping or for internal use.
+Here I have tried to predict whether a job title is Data scientist/Analyst from the job description. I implemented 2 models Naive Bayes Classifier and Logistic Regression. I tried implementing the model with 20% test data and with full dataset as well. For both models ROC and classification report seem to be great. Both the models seems to be good and can also be used for predicting the title with the JD's for further scrapping or for internal use.
 
 ### Conclusion
 
-Part1: Here I have implemented mainly 2 models to make it a classification problem. Here I have tried to predict high and low salary. Implemented mainly 2 models, one is Logistic regression and second a Decision Tree. Both of the classification seems to be a good predictor with approximately 75% area in ROC curve. From both the models I have found out the key skills and features that are related to the salary.
+Part1: Here I have implemented mainly 2 models to make it a classification problem. High and low salary implementing mainly two models, logistic regression and a decision tree. Both the classification seems to be a good predictor with approximately 75% area in ROC curve. From both the models I have found out the key skills and features that are related to the salary.
 Part2: I again checked through 2 models and the prediction through the job description worked well.
 
 
