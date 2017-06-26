@@ -6,7 +6,6 @@ tags: [web scraping, NLP, classification]
 fullview: false
 ---
 
-### Introduction
 In this project I have tried mainly answer 2 questions.
 
 1. Part1:
